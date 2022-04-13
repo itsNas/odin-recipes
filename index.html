@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oishi Anime Food Recipes</title>
+
+    <style>
+        body {
+            background-color: goldenrod;
+        }
+
+        .title,
+        .main {
+            color: brown;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .gif {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        p {
+            background-color: aliceblue;
+            display: inline-block;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .nav {
+            text-align: center;
+            margin-left: auto;
+            ma max-width: 100%;
+            max-height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p :hover {
+            font-weight: bolder;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>These Recipes Allow You to Recreate the Most Delicious Anime Food You've Ever Seen</h1>
 
-    <img src="img/animefood.gif" width="960" alt="animefood">
+    <h1 class="title">These Recipes Allow You to Recreate the Most Delicious Anime Food You've Ever Seen</h1>
 
-    <p><h3>Try this 3 recipes on you own!</h3></p>
-    <ul>
-        <li> <a href="./pages/furikake.html">Furikake Rice - Shokugeki no Souma</a> </li>
-        <li> <a href="./pages/hamnoodles.html">Ham Noodles - Ponyo</a> </li>
-        <li> <a href="./pages/cream.html">Cream Stew - The Secret World of Arietty</a> </li>
-    </ul>
+    <img class="gif" src="img/animefood.gif" width="960" alt="animefood">
+
+    <h3 class="main">Try this 3 recipes on you own!</h3>
+
+    <div class="nav">
+        <p> <a href="./pages/furikake.html">Furikake Rice - Shokugeki no Souma</a> </p>
+        <p> <a href="./pages/hamnoodles.html">Ham Noodles - Ponyo</a> </p>
+        <p> <a href="./pages/cream.html">Cream Stew - The Secret World of Arietty</a> </p>
+    </div>
 
 </body>
+
 </html>
